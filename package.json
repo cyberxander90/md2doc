@@ -1,0 +1,10 @@
+{
+  "name": "md2doc",
+  "version": "0.0.1",
+  "description": "Generate a website for your documentation from markdown files.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "cyberxander90",
+  "license": "ISC",
+  "devDependencies": {}
+}
