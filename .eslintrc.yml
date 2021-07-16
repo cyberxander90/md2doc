@@ -7,4 +7,9 @@ extends:
   - airbnb-base
 parserOptions:
   ecmaVersion: 12
-rules: {}
+rules: 
+  no-use-before-define:
+    - error
+    - functions: false
+      classes: true
+
