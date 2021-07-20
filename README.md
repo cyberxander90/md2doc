@@ -1,7 +1,7 @@
-# Welcome to md2doc 👋
+# Welcome to md2docs 👋
 
-[![Version](https://img.shields.io/npm/v/md2doc.svg)](https://www.npmjs.com/package/md2doc)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](github.com/cyberxander90/md2doc)
+[![Version](https://img.shields.io/npm/v/md2docs.svg)](https://www.npmjs.com/package/md2docs)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](github.com/cyberxander90/md2docs)
 ![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)
 
 Generate a website for your documentation from markdown files.
@@ -22,7 +22,7 @@ npm install
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://github.com/cyberxander90/md2doc/issues).
+Feel free to check [issues page](https://github.com/cyberxander90/md2docs/issues).
 
 ## Show your support
 

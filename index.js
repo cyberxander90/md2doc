@@ -1,3 +1,3 @@
-const md2doc = require('./lib/md2doc');
+const md2docs = require('./lib/md2docs');
 
-md2doc({ output: 'testing/site', target: 'testing/doc' });
+md2docs({ output: 'testing/site', target: 'testing/doc' });
