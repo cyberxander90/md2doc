@@ -3,6 +3,18 @@
   "version": "1.0.0",
   "description": "Generate a website for your documentation from markdown files.",
   "main": "index.js",
+  "bin": {
+    "cyberxander90/md2docs": "index.js",
+    "md2docs": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "markdown",
+    "website",
+    "documentation"
+  ],
   "scripts": {
     "eslint": "eslint ./",
     "eslint:fix": "eslint ./ --fix",
@@ -20,6 +32,7 @@
     "mock-fs": "^5.0.0"
   },
   "dependencies": {
-    "showdown": "^1.9.1"
+    "showdown": "^1.9.1",
+    "yargs": "^17.0.1"
   }
 }
