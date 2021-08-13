@@ -24,6 +24,12 @@ Contributions, issues and feature requests are welcome!
 
 Feel free to check [issues page](https://github.com/cyberxander90/md2docs/issues).
 
+## Development
+
+- running cli locally
+
+> node lib/cli.js -i testing/doc -o testing/out
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!

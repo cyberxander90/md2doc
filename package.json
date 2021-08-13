@@ -4,8 +4,8 @@
   "description": "Generate a website for your documentation from markdown files.",
   "main": "index.js",
   "bin": {
-    "cyberxander90/md2docs": "index.js",
-    "md2docs": "index.js"
+    "cyberxander90/md2docs": "lib/cli.js",
+    "md2docs": "lib/cli.js"
   },
   "publishConfig": {
     "access": "public"
@@ -19,7 +19,7 @@
     "eslint": "eslint ./",
     "eslint:fix": "eslint ./ --fix",
     "test": "jest",
-    "serve": "npx http-server testing/site"
+    "server": "npx http-server testing/out"
   },
   "author": "cyberxander90",
   "license": "ISC",
@@ -32,6 +32,9 @@
     "mock-fs": "^5.0.0"
   },
   "dependencies": {
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "js-beautify": "^1.14.0",
     "showdown": "^1.9.1",
     "yargs": "^17.0.1"
   }
