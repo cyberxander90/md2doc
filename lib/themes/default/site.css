@@ -98,7 +98,7 @@ main {
 }
  
 #table-of-contents {
-  width: 300px;
+  width: 500px;
 }
 
 code {
@@ -265,3 +265,64 @@ code:not([class]) {
   font-size: 0.75em;
   line-height: 1.4;
 }
+
+/* ===================================================== */
+/* ================  Table of Contents  ================ */
+/* ===================================================== */
+
+/* 1. Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 2. Make nav sticky */
+#table-of-contents {
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#table-of-contents li {
+  margin-left: 1rem;
+}
+
+/* 3. ScrollSpy active styles (see JS tab for activation) */
+#table-of-contents li.active > a {
+  color: #333;
+  font-weight: 500;
+}
+
+/* Sidebar Navigation */
+#table-of-contents {
+  padding-left: 0;
+  border-left: 1px solid #efefef;
+}
+
+#table-of-contents a {
+  text-decoration: none;
+  display: block;
+  padding: .125rem 0;
+  color: #ccc;
+  transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+}
+
+#table-of-contents a:hover,
+#table-of-contents a:focus {
+  color: #666;
+}
+
+/** page layout **/
+/* main {
+  display: grid;
+  grid-template-columns: 1fr 15em;
+  max-width: 100em;
+  width: 90%;
+  margin: 0 auto;
+} */
+
+
+/* ===================================================== */
+/* ================                     ================ */
+/* ===================================================== */
